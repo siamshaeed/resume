@@ -215,6 +215,14 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
+.job-title a {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-decoration: none;
+}
 .main-wrapper .time {
   position: absolute;
   right: 0;
@@ -222,8 +230,13 @@ p {
   color: #97AAC3;
 }
 .main-wrapper .company {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #97AAC3;
+}
+.company a{
+  /* margin-bottom: 10px !important; */
+  color: #97AAC3;
+  text-decoration: none;
 }
 .main-wrapper .project-title {
   font-size: 16px;
